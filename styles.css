@@ -623,7 +623,7 @@ form {
     z-index: 10;
     padding: 10px 50px 10px 10px;
     color: #fff;
-    background: url("../images/blacktocat.png") #0090ff no-repeat 95% 50%;
+    background: url("../images/blacktocat.png") #d54e21 no-repeat 95% 50%;
     font-weight: 700;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 2px;
@@ -631,12 +631,12 @@ form {
 }
 
 #header_wrap {
-    background: #212121;
-    background: -moz-linear-gradient(top, #373737, #212121);
-    background: -webkit-linear-gradient(top, #373737, #212121);
-    background: -ms-linear-gradient(top, #373737, #212121);
-    background: -o-linear-gradient(top, #373737, #212121);
-    background: linear-gradient(top, #373737, #212121)
+    background: #21759b;
+    background: -moz-linear-gradient(top, #d3e7f8, #21759b);
+    background: -webkit-linear-gradient(top, #d3e7f8, #21759b);
+    background: -ms-linear-gradient(top, #d3e7f8, #21759b);
+    background: -o-linear-gradient(top, #d3e7f8, #21759b);
+    background: linear-gradient(top, #d3e7f8, #21759b)
 }
 
 #header_wrap .inner {
