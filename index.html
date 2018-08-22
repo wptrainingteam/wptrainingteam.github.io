@@ -1,185 +1,348 @@
 <!DOCTYPE html>
 <html>
-  <title>WordPress.org Training Team Lesson Plans</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://wptrainingteam.github.io/styles.css">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WordPress.org Training Team Lesson Plans</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+		<script type="text/javascript">
+			'use strict';
+			document.addEventListener('DOMContentLoaded', function () {
+			
+			// Navigation
 
+			var $burgers = getAll('.burger');
+
+			if ($burgers.length > 0) {
+				$burgers.forEach(function ($el) {
+					$el.addEventListener('click', function () {
+						var target = $el.dataset.target;
+						var $target = document.getElementById(target);
+						$el.classList.toggle('is-active');
+						$target.classList.toggle('is-active');
+					});
+				});
+			}
+
+			// Functions
+
+			function getAll(selector) {
+				return Array.prototype.slice.call(document.querySelectorAll(selector), 0);
+			}
+
+			});
+			function openTab(evt, tabName) {
+				var i, x, tablinks;
+				x = document.getElementsByClassName("content-tab");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tab");
+				for (i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+				}
+				document.getElementById(tabName).style.display = "block";
+				evt.currentTarget.className += " is-active";
+			}
+		</script>
+		<style type="text/css">
+		.tabs.is-toggle li.is-active a {
+			background-color: #3d3a3a;
+			border-color: #3d3a3a;
+		}
+		
+		ul.repo-list {
+			margin: 0 -15px;
+		}
+		
+		ul.repo-list li {
+			padding: 2px 15px;
+			display: inline-block;
+			vertical-align: top;
+			width: 50%;
+			margin-right: -4px;
+		}
+		
+		ul.repo-list li a {
+			position: relative;
+			padding-left: 18px;
+			display: inline-block;
+		}
+		
+		ul.repo-list li a::before {
+			content: "\00BB";
+			position: absolute;
+			left: 0;
+			top: -3px;
+		}
+
+		.footer {
+			padding: 30px 0;
+		}
+		</style>
+	</head>
 <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/wptrainingteam">Contribute on GitHub</a>
+	<section class="hero is-dark is-bold is-medium">
+		<!-- Hero head: will stick at the top -->
+		<div class="hero-head">
+			<nav class="navbar">
+			<div class="container">
+				<div class="navbar-brand">
+				<a class="navbar-item" href="">
+					<strong>WordPress.org Training Team</strong>
+				</a>
+				<span class="navbar-burger burger" data-target="navbarmenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+				</div>
+				<div id="navbarmenu" class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item" href="https://trello.com/b/BsfzszRM">Join on Trello</a>
+					<a class="navbar-item" href="https://make.wordpress.org/training/">Blog</a>
+					<span class="navbar-item">
+					<a class="button is-inverted" href="https://github.com/wptrainingteam">
+						<span class="icon"><i class="fab fa-github"></i></span>
+						<span>Contribute on Github</span>
+					</a>
+					</span>
+				</div>
+				</div>
+			</div>
+			</nav>
+		</div>
+		
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title is-spaced">
+					WordPress.org Training Team Lesson Plans 
+				</h1>
+				<h2 class="subtitle">
+					The WordPress Training Team creates downloadable lesson plans and related materials for instructors to use in live workshop environments. If you enjoy teaching people how to use and build stuff for WordPress, immediately stop what you’re doing and join our team!
+				</h2>
+			</div>
+			
+		</div>
+	</section>
 
-          <h1 id="project_title">WordPress.org Training Team Lesson Plans</h1>
-          <h2 id="project_tagline"></h2>
-          
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-        <h2 id="welcome-to-github-pages">Welcome to the WordPress.org Training Team Lesson Plans!</h2>
-
-        <p>The WordPress Training Team creates downloadable lesson plans and related materials for instructors to use in live workshop environments. If you enjoy teaching people how to use and build stuff for WordPress, immediately stop what you’re doing and join our team!</p>
-        <p>Regardless of your skill set, you can help! We need people to write, copyedit, test, audit, connect, and review our lesson plans. Find out how to get started at <a href="https://make.wordpress.org/training/handbook/about/getting-started/">https://make.wordpress.org/training/handbook/about/getting-started/</a>.</p>
-
-        <h2>Speaker/Diversity Lesson Plans</h2>
-        <p>We are keeping track of how many WP groups run the workshops this year. If you’re planning on running it, please either <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/diversity-speaker-training-workshop/">let us know here</a> or message @jillbinder on Slack.</p>
-        <h3>Lessons for speakers include:</h3>
-        <ul>
-          <li><a href="https://github.com/wptrainingteam/finding-a-topic-for-a-wordpress-talk">Finding a Topic for a WordPress Talk</a></li>
-          <li><a href="https://github.com/wptrainingteam/writing-the-pitch-for-your-wordpress-talk">Writing the Pitch for your WordPress Talk</a></li>
-          <li><a href="https://github.com/wptrainingteam/creating-your-wordpress-talk">Creating Your WordPress Talk</a></li>
-          <li><a href="https://github.com/wptrainingteam/becoming-a-better-speaker">Becoming a Better Speaker</a></li>
-          <li><a href="https://github.com/wptrainingteam/creating-great-slides">Creating Great Slides</a></li>
-        </ul>
-
-        <h2>User Lesson Plans</h2>
-        <p>User lessons are targeted towards end-users, those who actually publish content. A student who has followed all lessons in this section is expected to have mastered the WordPress back end.</p>
-        <h3>Lessons for users include:</h3>
-        <ul>
-          <li><a href="https://github.com/wptrainingteam/backing-up-your-wordpress-site">Backing Up Your WordPress Site</a></li>
-          <li><a href="https://github.com/wptrainingteam/categories-versus-tags">Categories vs. Tags</a></li>
-          <li><a href="https://github.com/wptrainingteam/choosing-and-installing-plugins">Choosing and Installing Plugins</a></li>
-          <li><a href="https://github.com/wptrainingteam/choosing-and-installing-themes">Choosing and Installing Themes</a></li>
-          <li><a href="https://github.com/wptrainingteam/content-editor-overview">Content Editor Overview</a></li>
-          <li><a href="https://github.com/wptrainingteam/dashboard-overview">Dashboard Overview</a></li>
-          <li><a href="https://github.com/wptrainingteam/general-history-of-wordpress">General History of WordPress</a></li>
-          <li><a href="https://github.com/wptrainingteam/help-regenerate-thumbnails">Help Regnerate Thumbnails</a></li>
-          <li><a href="https://github.com/wptrainingteam/high-level-overview">High Level Overview</a></li>
-          <li><a href="https://github.com/wptrainingteam/how-to-find-help-with-wordpress">How to Find Help With WordPress</a></li>
-          <li><a href="https://github.com/wptrainingteam/how-to-install-wordpress-on-a-server">How to Install WordPress on a Server</a></li>
-          <li><a href="https://github.com/wptrainingteam/introduction-to-common-plugins">Intro to Common Plugins</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-comments">Managing Comments</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-media">Managing Media</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-menus">Managing Menus</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-updates">Managing Updates</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-widgets">Managing Widgets</a></li>
-          <li><a href="https://github.com/wptrainingteam/one-click-install-using-bluehost">One-Click Install Using Bluehost</a></li>
-          <li><a href="https://github.com/wptrainingteam/pages-versus-posts">Pages vs. Posts</a></li>
-          <li><a href="https://github.com/wptrainingteam/popular-plugins">Popular Plugins</a></li>
-          <li><a href="https://github.com/wptrainingteam/post-formats-user">Post Formats</a></li>
-          <li><a href="https://github.com/wptrainingteam/rss-feeds">RSS Feeds</a></li>
-          <li><a href="https://github.com/wptrainingteam/setting-a-static-page-as-your-homepage">Setting a Static Page as Your Homepage</a></li>
-          <li><a href="https://github.com/wptrainingteam/setting-up-ecommerce-using-woocommerce">Setting Up E-commerce: Introduction to WooCommerce Plugin</a></li>
-          <li><a href="https://github.com/wptrainingteam/settings">Settings</a></li>
-          <li><a href="https://github.com/wptrainingteam/theme-customizer-user">Theme Customizer</a></li>
-          <li><a href="https://github.com/wptrainingteam/troubleshooting-basics">Troubleshooting Basics</a></li>
-          <li><a href="https://github.com/wptrainingteam/user-management">User Management</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-you-can-do-with-wordpress">What You Can Do With WordPress</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-are-google-xml-sitemaps">What is Google XML Sitemaps</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-open-source">What is Open Source?</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-w3-total-cache">What is W3 Total Cache?</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-to-do-when-you-forget-your-password">What to Do When You Forget Your Password</a></li>
-        </ul>
-
-        <h2>Theme Lesson Plans</h2>
-        <p>Theme lessons are targeted towards entry-level developers, those who actually write code. A student who has followed all lessons in this section is expected to be able to build WordPress themes.</p>
-        <ul>
-          <li><a href="https://github.com/wptrainingteam/anatomy-of-a-theme">Anatomy of a Theme</a></li>
-          <li><a href="https://github.com/wptrainingteam/basic-theme-configuration">Basic Theme Configuration</a></li>
-          <li><a href="https://github.com/wptrainingteam/child-themes">Child Themes</a></li>
-          <li><a href="https://github.com/wptrainingteam/coding-best-practices">Coding Best Practices</a></li>
-          <li><a href="https://github.com/wptrainingteam/conditional-tags">Conditional Tags</a></li>
-          <li><a href="https://github.com/wptrainingteam/custom-post-types">Custom Post Types</a></li>
-          <li><a href="https://github.com/wptrainingteam/customizer-header-background-images">Customizer: Header and Background Images</a></li>
-          <li><a href="https://github.com/wptrainingteam/customizer-site-icons-and-logo">Customizer: Site Icons and Logos</a></li>
-          <li><a href="https://github.com/wptrainingteam/customizer-static-versus-content-front-page">Customizer: Static Front Page vs. Content Feed</a></li>
-          <li><a href="https://github.com/wptrainingteam/customizer-taglines">Customizer: Taglines</a></li>
-          <li><a href="https://github.com/wptrainingteam/dashboard-icons">Dashboard Icons</a></li>
-          <li><a href="https://github.com/wptrainingteam/enqueueing-scripts-and-styles">Enqueuing Scripts and Styles</a></li>
-          <li><a href="https://github.com/wptrainingteam/how-to-find-theme-specific-documentation">How to Find Theme-Specific Documentation</a></li>
-          <li><a href="https://github.com/wptrainingteam/introduction-to-css">Introduction to CSS</a></li>
-          <li><a href="https://github.com/wptrainingteam/local-install">Local Install</a></li>
-          <li><a href="https://github.com/wptrainingteam/post-formats-theme">Post Formats</a></li>
-          <li><a href="https://github.com/wptrainingteam/template-hierarchy">Template Hierarchy</a></li>
-          <li><a href="https://github.com/wptrainingteam/template-tour">Template Tour</a></li>
-          <li><a href="https://github.com/wptrainingteam/the-loop">The Loop</a></li>
-          <li><a href="https://github.com/wptrainingteam/theme-accessibility">Theme Accessibility</a></li>
-          <li><a href="https://github.com/wptrainingteam/theme-internationalization">Theme Internationalization</a></li>
-          <li><a href="https://github.com/wptrainingteam/theme-troubleshooting">Theme Troubleshooting</a></li>
-          <li><a href="https://github.com/wptrainingteam/themes-plugins-relationship">Themes/Plugins Relationship</a></li>
-          <li><a href="https://github.com/wptrainingteam/using-the-advanced-custom-fields-plugin">Using the Advanced Custom Fields Plugin</a></li>
-          <li><a href="https://github.com/wptrainingteam/web-fonts">Web Fonts</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-a-theme">What is a Theme?</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-to-include-in-functions-dot-php-file">What to Include in Functions.php</a></li>
-          <li><a href="https://github.com/wptrainingteam/widget-areas">Widget Areas</a></li>
-        </ul>
-
-        <h2>Plugin Lesson Plans</h2>
-        <p>Plugin lessons are targeted towards entry-level developers, those who actually write code. A student who has followed all lessons in this section is expected to be able to build a WordPress plugin.</p>
-        <ul>
-          <li><a href="https://github.com/wptrainingteam/building-a-sitemap-for-a-site">Building a Sitemap for a Site</a></li>
-          <li><a href="https://github.com/wptrainingteam/improving-site-performance">Improving Site Performance</a></li>
-          <li><a href="https://github.com/wptrainingteam/keeping-wordpress-sites-secure">Keeping WordPress Sites Secure</a></li>
-          <li><a href="https://github.com/wptrainingteam/managing-spam-on-a-site">Managing Spam on a Site</a></li>
-          <li><a href="https://github.com/wptrainingteam/migrate-copy-or-clone-a-site">Migrate, Copy, or Clone a Site</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-akismet">What is Akismet</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-contact-form-7">What is Contact Form 7</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-wordfence-security">What is Wordfence Security</a></li>
-          <li><a href="https://github.com/wptrainingteam/what-is-yoast-seo">What is Yoast SEO</a></li>
-        </ul>
-
-        <h2>Workshop Suggestions</h2>
-        <p>Lesson plans can be combined in many ways to create workshops. A few suggestions are as follows:</p>
-       
-        <h3>Welcome to WordPress</h3>
-          <ul>
-            <li>General History of WordPress</li>
-            <li>What Can You Do With WordPress</li>
-            <li>One-Click Install Using Bluehost</li>
-            <li>Dashboard Overview</li>
-            <li>Content Editor Overview</li>
-          </ul>
-        </p>
-        
-        <h3>Getting Started with WordPress</h3>
-          <ul>
-            <li>One-Click Install Using Bluehost</li>
-            <li>Selecting a Theme</li>
-            <li>Choosing and Installing Plugins</li>
-          </ul>
-        </p>
-        
-        <h3>WordPress Workshop</h3>
-        <ul>
-          <li>Introduction: What is WordPress?</li>
-            <ul>
-              <li>High Level Overview</li>
-              <li>Basic WordPress Concepts</li>
-              <li>One Click Install Using Bluehost</li>
-            </ul>
-          <li>Getting Started: A Quick-Start Guide to WordPress</li>
-            <ul>
-              <li>Overview of the Dashboard</li>
-              <li>Settings</li>
-              <li>Pages vs. Posts</li>
-              <li>Setting a Static Page as Your Homepage</li>
-              <li>Categories vs. Tags</li>
-              <li>What to Do When You Forget Your Password</li>
-              <li>User Management</li>
-            </ul>
-          <li>Prettier Posts: Getting to Know the Editor</li>
-            <ul>
-              <li>Content Editor Overview</li>
-              <li>Managing Media</li>
-              <li>Manageing Comments</li>
-            </ul>
-          <li>Make It Your Own: Changing the Look and Feel of Your New Site</li>
-            <ul>
-              <li>Choosing adn Installing a Theme</li>
-              <li>Theme Customizer</li>
-              <li>Managing Widgets</li>
-              <li>Managing Menus</li>
-              <li>Selecting Plugins</li>
-            </ul>
-        </ul>
+	<section class="section get-started is-small">
+		<div class="container">
+			<section class="message message-body">
+				<div class="media">
+					<div class="media-left"><span class="icon is-large"><i class="fa fa-information fa-3x"></i></span></div>
+					<div class="media-content">
+						<p class="subtitle is-5">Regardless of your skill set, you can help! We need people to write, copyedit, test, audit, connect, and review our lesson plans. Find out how to get started at <a href="https://make.wordpress.org/training/handbook/about/getting-started/">https://make.wordpress.org/training/handbook/about/getting-started/</a>.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
 
 
-      </section>
-    </div>
-     
-</body>    
+	<!-- Hero footer: will stick at the bottom -->
+	<div class="hero-foot">
+		<nav class="tabs tabs is-toggle is-toggle-rounded is-medium is-fullwidth">
+		<div class="container">
+			<ul>
+				<li class="tab is-active" onclick="openTab(event,'UserLessonPlans')"><a><span class="icon is-small"><i class="fas fa-users" aria-hidden="true"></i></span> User Lesson Plans</a></li>
+				<li  class="tab" onclick="openTab(event,'ThemeLessonPlans')"><a><span class="icon is-small"><i class="fas fa-palette" aria-hidden="true"></i></span> Theme Lesson Plans</a></li>
+				<li  class="tab" onclick="openTab(event,'PluginLessonPlans')"><a><span class="icon is-small"><i class="fas fa-plug" aria-hidden="true"></i></span> Plugin Lesson Plans</a></li>
+				<li  class="tab" onclick="openTab(event,'SpeakerLessonPlans')"><a><span class="icon is-small"><i class="fas fa-bullhorn" aria-hidden="true"></i></span> Speaker/Diversity Lesson Plans</a></li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+	<section class="section">
+		<div class="container">
+			<div id="UserLessonPlans" class="content-tab">
+				<h2 class="title is-4 is-spaced">User Lesson Plans</h2>
+				<p class="subtitle is-5 is-spaced">User lessons are targeted towards end-users, those who actually publish content. A student who has followed all lessons in this section is expected to have mastered the WordPress back end.</p>
+				<h3 class="title is-5">Lessons for users include:</h3>
+				<ul class="repo-list">
+					<li><a href="https://github.com/wptrainingteam/backing-up-your-wordpress-site">Backing Up Your WordPress Site</a></li>
+					<li><a href="https://github.com/wptrainingteam/categories-versus-tags">Categories vs. Tags</a></li>
+					<li><a href="https://github.com/wptrainingteam/choosing-and-installing-plugins">Choosing and Installing Plugins</a></li>
+					<li><a href="https://github.com/wptrainingteam/choosing-and-installing-themes">Choosing and Installing Themes</a></li>
+					<li><a href="https://github.com/wptrainingteam/content-editor-overview">Content Editor Overview</a></li>
+					<li><a href="https://github.com/wptrainingteam/dashboard-overview">Dashboard Overview</a></li>
+					<li><a href="https://github.com/wptrainingteam/general-history-of-wordpress">General History of WordPress</a></li>
+					<li><a href="https://github.com/wptrainingteam/help-regenerate-thumbnails">Help Regnerate Thumbnails</a></li>
+					<li><a href="https://github.com/wptrainingteam/high-level-overview">High Level Overview</a></li>
+					<li><a href="https://github.com/wptrainingteam/how-to-find-help-with-wordpress">How to Find Help With WordPress</a></li>
+					<li><a href="https://github.com/wptrainingteam/how-to-install-wordpress-on-a-server">How to Install WordPress on a Server</a></li>
+					<li><a href="https://github.com/wptrainingteam/introduction-to-common-plugins">Intro to Common Plugins</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-comments">Managing Comments</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-media">Managing Media</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-menus">Managing Menus</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-updates">Managing Updates</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-widgets">Managing Widgets</a></li>
+					<li><a href="https://github.com/wptrainingteam/one-click-install-using-bluehost">One-Click Install Using Bluehost</a></li>
+					<li><a href="https://github.com/wptrainingteam/pages-versus-posts">Pages vs. Posts</a></li>
+					<li><a href="https://github.com/wptrainingteam/popular-plugins">Popular Plugins</a></li>
+					<li><a href="https://github.com/wptrainingteam/post-formats-user">Post Formats</a></li>
+					<li><a href="https://github.com/wptrainingteam/rss-feeds">RSS Feeds</a></li>
+					<li><a href="https://github.com/wptrainingteam/setting-a-static-page-as-your-homepage">Setting a Static Page as Your Homepage</a></li>
+					<li><a href="https://github.com/wptrainingteam/setting-up-ecommerce-using-woocommerce">Setting Up E-commerce: Introduction to WooCommerce Plugin</a></li>
+					<li><a href="https://github.com/wptrainingteam/settings">Settings</a></li>
+					<li><a href="https://github.com/wptrainingteam/theme-customizer-user">Theme Customizer</a></li>
+					<li><a href="https://github.com/wptrainingteam/troubleshooting-basics">Troubleshooting Basics</a></li>
+					<li><a href="https://github.com/wptrainingteam/user-management">User Management</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-you-can-do-with-wordpress">What You Can Do With WordPress</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-are-google-xml-sitemaps">What is Google XML Sitemaps</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-open-source">What is Open Source?</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-w3-total-cache">What is W3 Total Cache?</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-to-do-when-you-forget-your-password">What to Do When You Forget Your Password</a></li>
+				</ul>
+			</div>
+			<div id="ThemeLessonPlans" class="content-tab" style="display:none">
+				<h2 class="title is-4 is-spaced">Theme Lesson Plans</h2>
+				<p class="subtitle is-5 is-spaced">Theme lessons are targeted towards entry-level developers, those who actually write code. A student who has followed all lessons in this section is expected to be able to build WordPress themes.</p>
+				<h3 class="title is-5">Lessons for theme include:</h3>
+				<ul class="repo-list">
+					<li><a href="https://github.com/wptrainingteam/anatomy-of-a-theme">Anatomy of a Theme</a></li>
+					<li><a href="https://github.com/wptrainingteam/basic-theme-configuration">Basic Theme Configuration</a></li>
+					<li><a href="https://github.com/wptrainingteam/child-themes">Child Themes</a></li>
+					<li><a href="https://github.com/wptrainingteam/coding-best-practices">Coding Best Practices</a></li>
+					<li><a href="https://github.com/wptrainingteam/conditional-tags">Conditional Tags</a></li>
+					<li><a href="https://github.com/wptrainingteam/custom-post-types">Custom Post Types</a></li>
+					<li><a href="https://github.com/wptrainingteam/customizer-header-background-images">Customizer: Header and Background Images</a></li>
+					<li><a href="https://github.com/wptrainingteam/customizer-site-icons-and-logo">Customizer: Site Icons and Logos</a></li>
+					<li><a href="https://github.com/wptrainingteam/customizer-static-versus-content-front-page">Customizer: Static Front Page vs. Content Feed</a></li>
+					<li><a href="https://github.com/wptrainingteam/customizer-taglines">Customizer: Taglines</a></li>
+					<li><a href="https://github.com/wptrainingteam/dashboard-icons">Dashboard Icons</a></li>
+					<li><a href="https://github.com/wptrainingteam/enqueueing-scripts-and-styles">Enqueuing Scripts and Styles</a></li>
+					<li><a href="https://github.com/wptrainingteam/how-to-find-theme-specific-documentation">How to Find Theme-Specific Documentation</a></li>
+					<li><a href="https://github.com/wptrainingteam/introduction-to-css">Introduction to CSS</a></li>
+					<li><a href="https://github.com/wptrainingteam/local-install">Local Install</a></li>
+					<li><a href="https://github.com/wptrainingteam/post-formats-theme">Post Formats</a></li>
+					<li><a href="https://github.com/wptrainingteam/template-hierarchy">Template Hierarchy</a></li>
+					<li><a href="https://github.com/wptrainingteam/template-tour">Template Tour</a></li>
+					<li><a href="https://github.com/wptrainingteam/the-loop">The Loop</a></li>
+					<li><a href="https://github.com/wptrainingteam/theme-accessibility">Theme Accessibility</a></li>
+					<li><a href="https://github.com/wptrainingteam/theme-internationalization">Theme Internationalization</a></li>
+					<li><a href="https://github.com/wptrainingteam/theme-troubleshooting">Theme Troubleshooting</a></li>
+					<li><a href="https://github.com/wptrainingteam/themes-plugins-relationship">Themes/Plugins Relationship</a></li>
+					<li><a href="https://github.com/wptrainingteam/using-the-advanced-custom-fields-plugin">Using the Advanced Custom Fields Plugin</a></li>
+					<li><a href="https://github.com/wptrainingteam/web-fonts">Web Fonts</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-a-theme">What is a Theme?</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-to-include-in-functions-dot-php-file">What to Include in Functions.php</a></li>
+					<li><a href="https://github.com/wptrainingteam/widget-areas">Widget Areas</a></li>
+				</ul>
+			</div>
+			<div id="PluginLessonPlans" class="content-tab" style="display:none">
+				<h2 class="title is-4 is-spaced">Plugin Lesson Plans</h2>
+				<p class="subtitle is-5 is-spaced">Plugin lessons are targeted towards entry-level developers, those who actually write code. A student who has followed all lessons in this section is expected to be able to build a WordPress plugin.</p>
+				<h3 class="title is-5">Lessons for plugin include:</h3>
+				<ul class="repo-list">
+					<li><a href="https://github.com/wptrainingteam/building-a-sitemap-for-a-site">Building a Sitemap for a Site</a></li>
+					<li><a href="https://github.com/wptrainingteam/improving-site-performance">Improving Site Performance</a></li>
+					<li><a href="https://github.com/wptrainingteam/keeping-wordpress-sites-secure">Keeping WordPress Sites Secure</a></li>
+					<li><a href="https://github.com/wptrainingteam/managing-spam-on-a-site">Managing Spam on a Site</a></li>
+					<li><a href="https://github.com/wptrainingteam/migrate-copy-or-clone-a-site">Migrate, Copy, or Clone a Site</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-akismet">What is Akismet</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-contact-form-7">What is Contact Form 7</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-wordfence-security">What is Wordfence Security</a></li>
+					<li><a href="https://github.com/wptrainingteam/what-is-yoast-seo">What is Yoast SEO</a></li>
+				</ul>
+			</div>
+			<div id="SpeakerLessonPlans" class="content-tab" style="display:none">
+				<h2 class="title is-4 is-spaced">Theme Lesson Plans</h2>
+				<p class="subtitle is-5 is-spaced">We are keeping track of how many WP groups run the workshops this year. If you’re planning on running it, please either <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/diversity-speaker-training-workshop/">let us know here</a> or message @jillbinder on Slack.</p>
+				<h3 class="title is-5">Lessons for speakers include:</h3>
+				<ul class="repo-list">
+					<li><a href="https://github.com/wptrainingteam/finding-a-topic-for-a-wordpress-talk">Finding a Topic for a WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/writing-the-pitch-for-your-wordpress-talk">Writing the Pitch for your WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/creating-your-wordpress-talk">Creating Your WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/becoming-a-better-speaker">Becoming a Better Speaker</a></li>
+					<li><a href="https://github.com/wptrainingteam/creating-great-slides">Creating Great Slides</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="section is-small has-background-light workshop-suggestions">
+		<div class="container">
+			<h2 class="title is-4 is-spaced">Workshop Suggestions</h2>
+			<p class="subtitle is-5 is-spaced">Lesson plans can be combined in many ways to create workshops. A few suggestions are as follows:</p>
+			<div class="content">
+				<div class="columns">
+					<div class="column is-one-third">
+						<h4>Welcome to WordPress</h4>
+						<p>
+							<ul>
+								<li>General History of WordPress</li>
+								<li>What Can You Do With WordPress</li>
+								<li>One-Click Install Using Bluehost</li>
+								<li>Dashboard Overview</li>
+								<li>Content Editor Overview</li>
+							</ul>
+						</p>
+					</div>
+					<div class="column">
+						<h4>Getting Started with WordPress</h4>
+						<p>
+							<ul>
+								<li>One-Click Install Using Bluehost</li>
+								<li>Selecting a Theme</li>
+								<li>Choosing and Installing Plugins</li>
+							</ul>
+						</p>
+					</div>
+					<div class="column">
+						<h4>WordPress Workshop</h4>
+						<p>
+							<ul>
+								<li>Introduction: What is WordPress?
+									<ul>
+										<li>High Level Overview</li>
+										<li>Basic WordPress Concepts</li>
+										<li>One Click Install Using Bluehost</li>
+									</ul>
+								</li>
+								<li>Getting Started: A Quick-Start Guide to WordPress
+									<ul>
+										<li>Overview of the Dashboard</li>
+										<li>Settings</li>
+										<li>Pages vs. Posts</li>
+										<li>Setting a Static Page as Your Homepage</li>
+										<li>Categories vs. Tags</li>
+										<li>What to Do When You Forget Your Password</li>
+										<li>User Management</li>
+									</ul>
+								</li>
+								<li>Prettier Posts: Getting to Know the Editor
+									<ul>
+										<li>Content Editor Overview</li>
+										<li>Managing Media</li>
+										<li>Manageing Comments</li>
+									</ul>
+								</li>
+								<li>Make It Your Own: Changing the Look and Feel of Your New Site
+									<ul>
+										<li>Choosing adn Installing a Theme</li>
+										<li>Theme Customizer</li>
+										<li>Managing Widgets</li>
+										<li>Managing Menus</li>
+										<li>Selecting Plugins</li>
+									</ul>
+								</li>
+							</ul>
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<footer class="footer has-background-dark has-text-white">
+		<div class="content has-text-centered">
+			<p>
+				WordPress Training Team
+			</p>
+		</div>
+	</footer>
+</body>
 </html>
