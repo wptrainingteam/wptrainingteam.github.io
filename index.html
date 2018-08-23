@@ -66,9 +66,16 @@
 		}
 		
 		ul.repo-list li a {
+			font-size: 16px;
 			position: relative;
 			padding-left: 18px;
 			display: inline-block;
+			color: #3d3a3a;
+		}
+
+		ul.repo-list li a:hover {
+			color: #000;
+			text-decoration: underline;
 		}
 		
 		ul.repo-list li a::before {
@@ -81,6 +88,64 @@
 		.footer {
 			padding: 30px 0;
 		}
+		
+		@media screen and (max-width: 1087px) {
+
+			.hero.is-medium .hero-body {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+
+			.hero h1.title {
+				font-size: 24px;
+			}
+
+			.hero h2 {
+				font-size: 16px;
+			}
+
+			section.is-small {
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+
+			.get-started {
+				padding-bottom: 0 !important;
+			}
+
+			.get-started .media-left {
+				display: none;
+			}
+
+			.get-started .subtitle {
+				font-size: 14px;
+			}
+
+			.lessons {
+				display: none;
+			}
+			
+			.content-tab h2.title,
+			.workshop-suggestions h2.title {
+				font-size: 24px;
+			}
+			
+			.content-tab .subtitle,
+			.workshop-suggestions .subtitle {
+				font-size: 16px;
+			}
+
+			.content-tab h3.title {
+				font-size: 17px;
+			}
+
+			ul.repo-list li {
+				margin: 0;
+				display: block;
+				width: 100%;
+			}
+		}
+		
 		</style>
 	</head>
 <body>
@@ -142,9 +207,7 @@
 		</div>
 	</section>
 
-
-	<!-- Hero footer: will stick at the bottom -->
-	<div class="hero-foot">
+	<section class="lessons">
 		<nav class="tabs tabs is-toggle is-toggle-rounded is-medium is-fullwidth">
 		<div class="container">
 			<ul>
@@ -155,7 +218,8 @@
 			</ul>
 		</div>
 		</nav>
-	</div>
+	</section>
+
 	<section class="section">
 		<div class="container">
 			<div id="UserLessonPlans" class="content-tab">
