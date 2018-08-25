@@ -633,6 +633,10 @@ a {
     color:#FFF;
   }
 
+  .invisible {
+    visibility: hidden;
+  }
+
 .slide .place.b.l,
 .slide .place.b.r,
 .slide .place.bottom.left,
