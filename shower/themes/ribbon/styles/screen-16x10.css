@@ -637,6 +637,18 @@ a {
     visibility: hidden;
   }
 
+  #picture h2 {
+    color:#FFF;
+  }
+
+  #see-more h2 {
+    font-size:100px
+  }
+  #see-more img {
+    width:0.72em;
+    height:0.72em;
+  }
+
 .slide .place.b.l,
 .slide .place.b.r,
 .slide .place.bottom.left,
