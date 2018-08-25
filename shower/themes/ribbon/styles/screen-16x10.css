@@ -616,6 +616,23 @@ a {
     transform: translate(-50%, -50%)
 }
 
+#cover h2 {
+  margin:30px 0 0;
+  color:#FFF;
+  text-align:center;
+  font-size:70px;
+}
+#cover p {
+  margin:10px 0 0;
+  text-align:center;
+  color:#FFF;
+  font-style:italic;
+  font-size:20px;
+}
+  #cover p a {
+    color:#FFF;
+  }
+
 .slide .place.b.l,
 .slide .place.b.r,
 .slide .place.bottom.left,
