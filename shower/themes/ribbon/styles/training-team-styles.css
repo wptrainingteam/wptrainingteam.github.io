@@ -1,0 +1,50 @@
+/**
+ * WordPress Traiing Team specific styles
+ *
+ * Based on...
+ * Ribbon theme for Shower HTML presentation engine
+ * shower-ribbon v2.1.0, https://github.com/shower/ribbon
+ * @copyright 2010–2017 Vadim Makeev, http://pepelsbey.net/
+ * @license MIT
+ */
+
+#cover h2 {
+  margin:30px 0 0;
+  color:#FFF;
+  text-align:center;
+  font-size:70px;
+}
+
+#cover p {
+  margin:10px 0 0;
+  text-align:center;
+  color:#FFF;
+  font-style:italic;
+  font-size:20px;
+}
+
+#cover p a {
+  color:#FFF;
+}
+
+#picture h2 {
+  color:#FFF;
+}
+
+#see-more h2 {
+  font-size:100px
+}
+
+#see-more img {
+  width:0.72em;
+  height:0.72em;
+}
+
+/* .invisible
+ * allows for headings and other text to be part of the HTML structure for accessibility,
+ * but not displayed on the screen.
+ * For example, a heading for an image slide.
+ */
+.invisible {
+  visibility: hidden;
+}
