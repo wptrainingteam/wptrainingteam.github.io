@@ -48,3 +48,12 @@
 .invisible {
   visibility: hidden;
 }
+
+/* .dark-background
+ * Allows for headings to be displayed against a dark background, for readability on light slides.
+ */
+ .dark-background {
+   background-color: rgba(1, 1, 1, 0.75);
+   color: #FFF !important;
+   padding: 0.5em;
+ }
