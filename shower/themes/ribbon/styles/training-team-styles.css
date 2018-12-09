@@ -58,11 +58,11 @@
    padding: 0.5em;
  }
 
- .smaller-text {
+.smaller-text {
    font-size: 22px !important;
  }
 
  img.center {
-   display: block;
+   display:block;
    margin: 0 auto;
  }
