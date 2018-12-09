@@ -61,3 +61,8 @@
  .smaller-text {
    font-size: 22px !important;
  }
+
+ img.center {
+   display: block;
+   margin: 0 auto;
+ }
