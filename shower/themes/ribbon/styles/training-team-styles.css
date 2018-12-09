@@ -57,3 +57,8 @@
    color: #FFF !important;
    padding: 0.5em;
  }
+
+.smaller-text {
+   font-size: 22px !important;
+ }
+
