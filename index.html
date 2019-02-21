@@ -236,10 +236,10 @@
 		<nav class="tabs is-toggle is-toggle-rounded is-medium is-fullwidth">
 		<div class="container">
 			<ul>
-				<li class="tab is-active" onclick="openTab(event,'UserLessonPlans')"><a><span class="icon is-small"><i class="fas fa-users" aria-hidden="true"></i></span> User Lesson Plans</a></li>
+				<li  class="tab is-active" onclick="openTab(event,'SpeakerLessonPlans')"><a><span class="icon is-small"><i class="fas fa-bullhorn" aria-hidden="true"></i></span> Speaker/Diversity Lesson Plans</a></li>
+				<li class="tab" onclick="openTab(event,'UserLessonPlans')"><a><span class="icon is-small"><i class="fas fa-users" aria-hidden="true"></i></span> User Lesson Plans</a></li>
 				<li  class="tab" onclick="openTab(event,'ThemeLessonPlans')"><a><span class="icon is-small"><i class="fas fa-palette" aria-hidden="true"></i></span> Theme Lesson Plans</a></li>
 				<li  class="tab" onclick="openTab(event,'PluginLessonPlans')"><a><span class="icon is-small"><i class="fas fa-plug" aria-hidden="true"></i></span> Plugin Lesson Plans</a></li>
-				<li  class="tab" onclick="openTab(event,'SpeakerLessonPlans')"><a><span class="icon is-small"><i class="fas fa-bullhorn" aria-hidden="true"></i></span> Speaker/Diversity Lesson Plans</a></li>
 			</ul>
 		</div>
 		</nav>
@@ -247,7 +247,19 @@
 
 	<section class="section lessons-list">
 		<div class="container">
-			<div id="UserLessonPlans" class="content-tab">
+			<div id="SpeakerLessonPlans" class="content-tab">
+				<h2 class="title is-4 is-spaced">Speaker/Diversity Lesson Plans</h2>
+				<p class="subtitle is-5 is-spaced">We are keeping track of how many WP groups run the workshops this year. If you’re planning on running it, please either <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/diversity-speaker-training-workshop/">let us know here</a> or message @jillbinder on Slack.</p>
+				<h3 class="title is-5">Lessons for speakers include:</h3>
+				<ul class="repo-list">
+					<li><a href="https://github.com/wptrainingteam/finding-a-topic-for-a-wordpress-talk">Finding a Topic for a WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/writing-the-pitch-for-your-wordpress-talk">Writing the Pitch for your WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/creating-your-wordpress-talk">Creating Your WordPress Talk</a></li>
+					<li><a href="https://github.com/wptrainingteam/becoming-a-better-speaker">Becoming a Better Speaker</a></li>
+					<li><a href="https://github.com/wptrainingteam/creating-great-slides">Creating Great Slides</a></li>
+				</ul>
+			</div>
+			<div id="UserLessonPlans" class="content-tab" style="display:none">
 				<h2 class="title is-4 is-spaced">User Lesson Plans</h2>
 				<p class="subtitle is-5 is-spaced">User lessons are targeted towards end-users, those who actually publish content. A student who has followed all lessons in this section is expected to have mastered the WordPress back end.</p>
 				<h3 class="title is-5">Lessons for users include:</h3>
@@ -336,18 +348,6 @@
 					<li><a href="https://github.com/wptrainingteam/what-is-contact-form-7">What is Contact Form 7</a></li>
 					<li><a href="https://github.com/wptrainingteam/what-is-wordfence-security">What is Wordfence Security</a></li>
 					<li><a href="https://github.com/wptrainingteam/what-is-yoast-seo">What is Yoast SEO</a></li>
-				</ul>
-			</div>
-			<div id="SpeakerLessonPlans" class="content-tab" style="display:none">
-				<h2 class="title is-4 is-spaced">Speaker/Diversity Lesson Plans</h2>
-				<p class="subtitle is-5 is-spaced">We are keeping track of how many WP groups run the workshops this year. If you’re planning on running it, please either <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/diversity-speaker-training-workshop/">let us know here</a> or message @jillbinder on Slack.</p>
-				<h3 class="title is-5">Lessons for speakers include:</h3>
-				<ul class="repo-list">
-					<li><a href="https://github.com/wptrainingteam/finding-a-topic-for-a-wordpress-talk">Finding a Topic for a WordPress Talk</a></li>
-					<li><a href="https://github.com/wptrainingteam/writing-the-pitch-for-your-wordpress-talk">Writing the Pitch for your WordPress Talk</a></li>
-					<li><a href="https://github.com/wptrainingteam/creating-your-wordpress-talk">Creating Your WordPress Talk</a></li>
-					<li><a href="https://github.com/wptrainingteam/becoming-a-better-speaker">Becoming a Better Speaker</a></li>
-					<li><a href="https://github.com/wptrainingteam/creating-great-slides">Creating Great Slides</a></li>
 				</ul>
 			</div>
 		</div>
