@@ -9,8 +9,8 @@ curl "https://api.github.com/orgs/wptrainingteam/repos?per_page=1000" | grep -w 
 
 awk 'NR == FNR { list[$0]=1; next } { if (! list[$0]) print }' $OMIT $ALL > $LESSONLIST
 
-LESSONS=$(cat lesson-plans.manifest)
-cd ../lesson-plan/
+LESSONS=$(cat $LESSONLIST)
+cd $LESSONPATH
 
 for lesson in $LESSONS;
 do
