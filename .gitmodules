@@ -330,3 +330,7 @@
 	path = lesson-plan/how-to-create-a-blog-post-in-wordpress-5
 	url = https://github.com/wptrainingteam/how-to-create-a-blog-post-in-wordpress-5.git
 	branch = master
+[submodule "lesson-plan/general-history-of-wordpress"]
+	path = lesson-plan/general-history-of-wordpress
+	url = https://github.com/wptrainingteam/general-history-of-wordpress.git
+	branch = master
