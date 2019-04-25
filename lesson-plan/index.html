@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WordPress.org Training Team Lesson Plans</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+		<script type="text/javascript">
+			'use strict';
+			document.addEventListener('DOMContentLoaded', function () {
+
+			// Navigation
+
+			var $burgers = getAll('.burger');
+
+			if ($burgers.length > 0) {
+				$burgers.forEach(function ($el) {
+					$el.addEventListener('click', function () {
+						var target = $el.dataset.target;
+						var $target = document.getElementById(target);
+						$el.classList.toggle('is-active');
+						$target.classList.toggle('is-active');
+					});
+				});
+			}
+
+			// Functions
+
+			function getAll(selector) {
+				return Array.prototype.slice.call(document.querySelectorAll(selector), 0);
+			}
+
+			});
+			function openTab(evt, tabName) {
+				var i, x, tablinks;
+				x = document.getElementsByClassName("content-tab");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tab");
+				for (i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+				}
+				document.getElementById(tabName).style.display = "block";
+				evt.currentTarget.className += " is-active";
+			}
+		</script>
+		<style type="text/css">
+
+		.hero.is-medium .hero-body {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		.hero .hero-body .container {
+			max-width: 900px;
+			margin: 0 auto;
+		}
+
+		.wapuu {
+			margin-bottom: 30px;
+		}
+
+		.tabs.is-toggle li.is-active a {
+			background-color: #3d3a3a;
+			border-color: #3d3a3a;
+		}
+
+		ul.repo-list {
+			margin: 0 -15px;
+		}
+
+		ul.repo-list li {
+			padding: 2px 15px;
+			display: inline-block;
+			vertical-align: top;
+			width: 50%;
+			margin-right: -4px;
+		}
+
+		ul.repo-list li a {
+			font-size: 16px;
+			position: relative;
+			padding-left: 18px;
+			display: inline-block;
+			color: #3d3a3a;
+		}
+
+		ul.repo-list li a:hover {
+			color: #000;
+			text-decoration: underline;
+		}
+
+		ul.repo-list li a::before {
+			content: "\00BB";
+			position: absolute;
+			left: 0;
+			top: -3px;
+		}
+
+		.footer {
+			padding: 30px 0;
+		}
+
+		@media screen and (max-width: 1087px) {
+
+			.hero.is-medium .hero-body {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+
+			.hero h1.title {
+				font-size: 24px;
+			}
+
+			.hero h2 {
+				font-size: 16px;
+			}
+
+			section.is-small {
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+
+			.get-started {
+				padding-bottom: 0 !important;
+			}
+
+			.get-started .media-left {
+				display: none;
+			}
+
+			.get-started .subtitle {
+				font-size: 14px;
+			}
+
+			.lessons {
+				display: none;
+			}
+
+			section.lessons-list {
+				padding-top: 0 !important;
+			}
+
+			.content-tab {
+				display: block !important;
+				padding-top: 40px !important;
+			}
+
+			.content-tab h2.title,
+			.workshop-suggestions h2.title {
+				font-size: 24px;
+			}
+
+			.content-tab .subtitle,
+			.workshop-suggestions .subtitle {
+				font-size: 16px;
+			}
+
+			.content-tab h3.title {
+				font-size: 17px;
+			}
+
+			ul.repo-list li {
+				margin: 0;
+				display: block;
+				width: 100%;
+			}
+		}
+
+		</style>
+	</head>
+<body>
+	<section class="hero is-dark is-bold is-medium">
+		<!-- Hero head: will stick at the top -->
+		<div class="hero-head">
+			<nav class="navbar">
+			<div class="container">
+				<div class="navbar-brand">
+				<a class="navbar-item" href="">
+					<strong>WordPress.org Training Team</strong>
+				</a>
+				<span class="navbar-burger burger" data-target="navbarmenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+				</div>
+				<div id="navbarmenu" class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item" href="https://trello.com/b/BsfzszRM">Join on Trello</a>
+					<a class="navbar-item" href="https://make.wordpress.org/training/">Blog</a>
+					<span class="navbar-item">
+					<a class="button is-inverted" href="https://github.com/wptrainingteam">
+						<span class="icon"><i class="fab fa-github"></i></span>
+						<span>Contribute on Github</span>
+					</a>
+					</span>
+				</div>
+				</div>
+			</div>
+			</nav>
+		</div>
+
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+
+				<img class="wapuu" width="200" height="200" src="https://wptrainingteam.github.io/images/WordPress-Training-Team-Wapuu.png" alt="WordPress Training Team Wapuu" />
+
+				<h1 class="title is-spaced">
+					WordPress.org Training Team Lesson Plans
+				</h1>
+				<h2 class="subtitle">
+					The WordPress Training Team creates downloadable lesson plans and related materials for instructors to use in live environments. If you enjoy teaching people how to use and build stuff for WordPress, immediately stop what you’re doing and join our team!
+				</h2>
+				<p class="has-text-centered">This location is inactive, for an up-to-date list of lesson plans, please visit <a href="https://github.com/wptrainingteam/wptrainingteam.github.io/tree/master/lesson-plan">the repository.</a></p>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="footer has-background-dark has-text-white">
+		<div class="content has-text-centered">
+			<p>
+				WordPress Training Team
+			</p>
+		</div>
+	</footer>
+	<script async src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</body>
+</html>
