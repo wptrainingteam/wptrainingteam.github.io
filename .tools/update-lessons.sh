@@ -16,6 +16,8 @@ awk 'NR == FNR { list[$0]=1; next } { if (! list[$0]) print }' "$OMIT" "$ALL" > 
 LESSONS="$(cat $LESSONLIST)"
 cd "$LESSONPATH"
 
+echo "# Lesson List" > README.md
+
 for lesson in $LESSONS; do
     git submodule add -b master "$lesson" || continue
 done
@@ -23,3 +25,5 @@ done
 git submodule init
 git submodule sync
 git submodule update --remote --merge
+
+git submodule foreach 'echo "* [$name](../$name) " >> ../README.md'
