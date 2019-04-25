@@ -26,4 +26,4 @@ git submodule init
 git submodule sync
 git submodule update --remote --merge
 
-git submodule foreach 'echo "* [$name](../$name) " >> ../README.md'
+git submodule foreach 'echo "* [$name](wptrainingteam.github.io/$name) " >> ../README.md;echo " * [Slides](wptrainingteam.github.io/$name/slides)" >> ../README.md'
