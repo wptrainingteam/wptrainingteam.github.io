@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+cd "$(dirname "$0")"
 
 REPO="https://api.github.com/orgs/wptrainingteam"
 OMIT="omitted-repos.manifest"
