@@ -226,10 +226,6 @@
 	path = lesson-plan/widget-areas
 	url = https://github.com/wptrainingteam/widget-areas.git
 	branch = master
-[submodule "lesson-plan/wptrainingteam.github.io"]
-	path = lesson-plan/wptrainingteam.github.io
-	url = https://github.com/wptrainingteam/wptrainingteam.github.io.git
-	branch = master
 [submodule "lesson-plan/finding-a-topic-for-a-wordpress-talk"]
 	path = lesson-plan/finding-a-topic-for-a-wordpress-talk
 	url = https://github.com/wptrainingteam/finding-a-topic-for-a-wordpress-talk.git

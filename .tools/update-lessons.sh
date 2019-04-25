@@ -19,6 +19,6 @@ for lesson in $LESSONS; do
     git submodule add -b master "$lesson" || continue
 done
 
-git submodule foreach git submodule init
-git submodule foreach git submodule sync
-git submodule foreach git submodule update --remote --merge
+git submodule init
+git submodule sync
+git submodule update --remote --merge
