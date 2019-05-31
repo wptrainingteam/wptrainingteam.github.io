@@ -662,3 +662,11 @@
 	path = dev/lesson-plan/how-to-create-a-blog-post-in-wordpress-5
 	url = https://github.com/wptrainingteam/how-to-create-a-blog-post-in-wordpress-5.git
 	branch = dev
+[submodule "lesson-plan/wp-cli"]
+	path = lesson-plan/wp-cli
+	url = https://github.com/wptrainingteam/wp-cli.git
+	branch = master
+[submodule "dev/lesson-plan/wp-cli"]
+	path = dev/lesson-plan/wp-cli
+	url = https://github.com/wptrainingteam/wp-cli.git
+	branch = dev

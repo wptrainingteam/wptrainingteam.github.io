@@ -163,5 +163,7 @@
   * [Slides](https://wptrainingteam.github.io/lesson-plan/what-you-can-do-with-wordpress/slides)
 * [lesson-plan/widget-areas](https://wptrainingteam.github.io/lesson-plan/widget-areas) 
   * [Slides](https://wptrainingteam.github.io/lesson-plan/widget-areas/slides)
+* [lesson-plan/wp-cli](https://wptrainingteam.github.io/lesson-plan/wp-cli) 
+  * [Slides](https://wptrainingteam.github.io/lesson-plan/wp-cli/slides)
 * [lesson-plan/writing-the-pitch-for-your-wordpress-talk](https://wptrainingteam.github.io/lesson-plan/writing-the-pitch-for-your-wordpress-talk) 
   * [Slides](https://wptrainingteam.github.io/lesson-plan/writing-the-pitch-for-your-wordpress-talk/slides)
