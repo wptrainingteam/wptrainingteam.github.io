@@ -1,0 +1,506 @@
+[
+	{
+		"title": "Anatomy Of A Theme",
+		"slug": "anatomy-of-a-theme",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/anatomy-of-a-theme/README.md",
+		"parent": null
+	},
+	{
+		"title": "Backing Up Your Wordpress Site",
+		"slug": "backing-up-your-wordpress-site",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/backing-up-your-wordpress-site/README.md",
+		"parent": null
+	},
+	{
+		"title": "Basic Theme Configuration",
+		"slug": "basic-theme-configuration",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/basic-theme-configuration/README.md",
+		"parent": null
+	},
+	{
+		"title": "Categories Versus Tags",
+		"slug": "categories-versus-tags",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/categories-versus-tags/README.md",
+		"parent": null
+	},
+	{
+		"title": "Child Themes",
+		"slug": "child-themes",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/child-themes/README.md",
+		"parent": null
+	},
+	{
+		"title": "Choosing And Installing Plugins",
+		"slug": "choosing-and-installing-plugins",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/choosing-and-installing-plugins/README.md",
+		"parent": null
+	},
+	{
+		"title": "Coding Best Practices",
+		"slug": "coding-best-practices",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/coding-best-practices/README.md",
+		"parent": null
+	},
+	{
+		"title": "Conditional Tags",
+		"slug": "conditional-tags",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/conditional-tags/README.md",
+		"parent": null
+	},
+	{
+		"title": "Content Editor Overview",
+		"slug": "content-editor-overview",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/content-editor-overview/README.md",
+		"parent": null
+	},
+	{
+		"title": "Custom Post Types",
+		"slug": "custom-post-types",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/custom-post-types/README.md",
+		"parent": null
+	},
+	{
+		"title": "Customizer Header Background Images",
+		"slug": "customizer-header-background-images",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/customizer-header-background-images/README.md",
+		"parent": null
+	},
+	{
+		"title": "Customizer Site Icons And Logo",
+		"slug": "customizer-site-icons-and-logo",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/customizer-site-icons-and-logo/README.md",
+		"parent": null
+	},
+	{
+		"title": "Customizer Static Versus Content Front Page",
+		"slug": "customizer-static-versus-content-front-page",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/customizer-static-versus-content-front-page/README.md",
+		"parent": null
+	},
+	{
+		"title": "Customizer Taglines",
+		"slug": "customizer-taglines",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/customizer-taglines/README.md",
+		"parent": null
+	},
+	{
+		"title": "Dashboard Icons",
+		"slug": "dashboard-icons",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/dashboard-icons/README.md",
+		"parent": null
+	},
+	{
+		"title": "Dashboard Overview",
+		"slug": "dashboard-overview",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/dashboard-overview/README.md",
+		"parent": null
+	},
+	{
+		"title": "Enqueueing Scripts And Styles",
+		"slug": "enqueueing-scripts-and-styles",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/enqueueing-scripts-and-styles/README.md",
+		"parent": null
+	},
+	{
+		"title": "General History Of Wordpress",
+		"slug": "general-history-of-wordpress",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/general-history-of-wordpress/README.md",
+		"parent": null
+	},
+	{
+		"title": "Regenerate Thumbnails",
+		"slug": "regenerate-thumbnails",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/regenerate-thumbnails/README.md",
+		"parent": null
+	},
+	{
+		"title": "High Level Overview",
+		"slug": "high-level-overview",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/high-level-overview/README.md",
+		"parent": null
+	},
+	{
+		"title": "How To Find Help With Wordpress",
+		"slug": "how-to-find-help-with-wordpress",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/how-to-find-help-with-wordpress/README.md",
+		"parent": null
+	},
+	{
+		"title": "How To Find Theme Specific Documentation",
+		"slug": "how-to-find-theme-specific-documentation",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/how-to-find-theme-specific-documentation/README.md",
+		"parent": null
+	},
+	{
+		"title": "Introduction To Common Plugins",
+		"slug": "introduction-to-common-plugins",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/introduction-to-common-plugins/README.md",
+		"parent": null
+	},
+	{
+		"title": "Introduction To Css",
+		"slug": "introduction-to-css",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/introduction-to-css/README.md",
+		"parent": null
+	},
+	{
+		"title": "Local Install",
+		"slug": "local-install",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/local-install/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Comments",
+		"slug": "managing-comments",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-comments/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Media",
+		"slug": "managing-media",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-media/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Menus",
+		"slug": "managing-menus",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-menus/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Updates",
+		"slug": "managing-updates",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-updates/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Widgets",
+		"slug": "managing-widgets",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-widgets/README.md",
+		"parent": null
+	},
+	{
+		"title": "One Click Install Using Bluehost",
+		"slug": "one-click-install-using-bluehost",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/one-click-install-using-bluehost/README.md",
+		"parent": null
+	},
+	{
+		"title": "Pages Versus Posts",
+		"slug": "pages-versus-posts",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/pages-versus-posts/README.md",
+		"parent": null
+	},
+	{
+		"title": "Popular Plugins",
+		"slug": "popular-plugins",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/popular-plugins/README.md",
+		"parent": null
+	},
+	{
+		"title": "Post Formats User",
+		"slug": "post-formats-user",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/post-formats-user/README.md",
+		"parent": null
+	},
+	{
+		"title": "Rss Feeds",
+		"slug": "rss-feeds",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/rss-feeds/README.md",
+		"parent": null
+	},
+	{
+		"title": "Setting A Static Page As Your Homepage",
+		"slug": "setting-a-static-page-as-your-homepage",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/setting-a-static-page-as-your-homepage/README.md",
+		"parent": null
+	},
+	{
+		"title": "Setting Up Ecommerce Using Woocommerce",
+		"slug": "setting-up-ecommerce-using-woocommerce",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/setting-up-ecommerce-using-woocommerce/README.md",
+		"parent": null
+	},
+	{
+		"title": "Settings",
+		"slug": "settings",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/settings/README.md",
+		"parent": null
+	},
+	{
+		"title": "Template Hierarchy",
+		"slug": "template-hierarchy",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/template-hierarchy/README.md",
+		"parent": null
+	},
+	{
+		"title": "Template Tour",
+		"slug": "template-tour",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/template-tour/README.md",
+		"parent": null
+	},
+	{
+		"title": "The Loop",
+		"slug": "the-loop",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/the-loop/README.md",
+		"parent": null
+	},
+	{
+		"title": "Theme Accessibility",
+		"slug": "theme-accessibility",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/theme-accessibility/README.md",
+		"parent": null
+	},
+	{
+		"title": "Theme Customizer User",
+		"slug": "theme-customizer-user",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/theme-customizer-user/README.md",
+		"parent": null
+	},
+	{
+		"title": "Theme Internationalization",
+		"slug": "theme-internationalization",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/theme-internationalization/README.md",
+		"parent": null
+	},
+	{
+		"title": "Theme Troubleshooting",
+		"slug": "theme-troubleshooting",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/theme-troubleshooting/README.md",
+		"parent": null
+	},
+	{
+		"title": "Themes Plugins Relationship",
+		"slug": "themes-plugins-relationship",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/themes-plugins-relationship/README.md",
+		"parent": null
+	},
+	{
+		"title": "Troubleshooting Basics",
+		"slug": "troubleshooting-basics",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/troubleshooting-basics/README.md",
+		"parent": null
+	},
+	{
+		"title": "User Management",
+		"slug": "user-management",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/user-management/README.md",
+		"parent": null
+	},
+	{
+		"title": "Using The Advanced Custom Fields Plugin",
+		"slug": "using-the-advanced-custom-fields-plugin",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/using-the-advanced-custom-fields-plugin/README.md",
+		"parent": null
+	},
+	{
+		"title": "Web Fonts",
+		"slug": "web-fonts",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/web-fonts/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is A Theme",
+		"slug": "what-is-a-theme",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-a-theme/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Are Google Xml Sitemaps",
+		"slug": "what-are-google-xml-sitemaps",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-are-google-xml-sitemaps/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is Open Source",
+		"slug": "what-is-open-source",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-open-source/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is W3 Total Cache",
+		"slug": "what-is-w3-total-cache",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-w3-total-cache/README.md",
+		"parent": null
+	},
+	{
+		"title": "What To Do When You Forget Your Password",
+		"slug": "what-to-do-when-you-forget-your-password",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-to-do-when-you-forget-your-password/README.md",
+		"parent": null
+	},
+	{
+		"title": "What To Include In Functions Dot Php File",
+		"slug": "what-to-include-in-functions-dot-php-file",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-to-include-in-functions-dot-php-file/README.md",
+		"parent": null
+	},
+	{
+		"title": "What You Can Do With Wordpress",
+		"slug": "what-you-can-do-with-wordpress",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-you-can-do-with-wordpress/README.md",
+		"parent": null
+	},
+	{
+		"title": "Widget Areas",
+		"slug": "widget-areas",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/widget-areas/README.md",
+		"parent": null
+	},
+	{
+		"title": "Finding A Topic For A Wordpress Talk",
+		"slug": "finding-a-topic-for-a-wordpress-talk",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/finding-a-topic-for-a-wordpress-talk/README.md",
+		"parent": null
+	},
+	{
+		"title": "Writing The Pitch For Your Wordpress Talk",
+		"slug": "writing-the-pitch-for-your-wordpress-talk",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/writing-the-pitch-for-your-wordpress-talk/README.md",
+		"parent": null
+	},
+	{
+		"title": "Creating Your Wordpress Talk",
+		"slug": "creating-your-wordpress-talk",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/creating-your-wordpress-talk/README.md",
+		"parent": null
+	},
+	{
+		"title": "Creating Great Slides",
+		"slug": "creating-great-slides",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/creating-great-slides/README.md",
+		"parent": null
+	},
+	{
+		"title": "Becoming A Better Speaker",
+		"slug": "becoming-a-better-speaker",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/becoming-a-better-speaker/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is Yoast Seo",
+		"slug": "what-is-yoast-seo",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-yoast-seo/README.md",
+		"parent": null
+	},
+	{
+		"title": "Keeping Wordpress Sites Secure",
+		"slug": "keeping-wordpress-sites-secure",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/keeping-wordpress-sites-secure/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is Akismet",
+		"slug": "what-is-akismet",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-akismet/README.md",
+		"parent": null
+	},
+	{
+		"title": "Improving Site Performance",
+		"slug": "improving-site-performance",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/improving-site-performance/README.md",
+		"parent": null
+	},
+	{
+		"title": "How To Install Wordpress On A Server",
+		"slug": "how-to-install-wordpress-on-a-server",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/how-to-install-wordpress-on-a-server/README.md",
+		"parent": null
+	},
+	{
+		"title": "Child Themes Twentysixteen",
+		"slug": "child-themes-twentysixteen",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/child-themes-twentysixteen/README.md",
+		"parent": null
+	},
+	{
+		"title": "Child Themes Twentyseventeen",
+		"slug": "child-themes-twentyseventeen",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/child-themes-twentyseventeen/README.md",
+		"parent": null
+	},
+	{
+		"title": "Choosing And Installing Themes",
+		"slug": "choosing-and-installing-themes",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/choosing-and-installing-themes/README.md",
+		"parent": null
+	},
+	{
+		"title": "Building A Sitemap For A Site",
+		"slug": "building-a-sitemap-for-a-site",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/building-a-sitemap-for-a-site/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is Contact Form 7",
+		"slug": "what-is-contact-form-7",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-contact-form-7/README.md",
+		"parent": null
+	},
+	{
+		"title": "Enqueueing Scripts And Styles Reworked",
+		"slug": "enqueueing-scripts-and-styles-reworked",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/enqueueing-scripts-and-styles-reworked/README.md",
+		"parent": null
+	},
+	{
+		"title": "Managing Spam On A Site",
+		"slug": "managing-spam-on-a-site",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/managing-spam-on-a-site/README.md",
+		"parent": null
+	},
+	{
+		"title": "Migrate Copy Or Clone A Site",
+		"slug": "migrate-copy-or-clone-a-site",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/migrate-copy-or-clone-a-site/README.md",
+		"parent": null
+	},
+	{
+		"title": "What Is Wordfence Security",
+		"slug": "what-is-wordfence-security",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/what-is-wordfence-security/README.md",
+		"parent": null
+	},
+	{
+		"title": "Post Formats Theme",
+		"slug": "post-formats-theme",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/post-formats-theme/README.md",
+		"parent": null
+	},
+	{
+		"title": "Repo Template",
+		"slug": "repo-template",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/repo-template/README.md",
+		"parent": null
+	},
+	{
+		"title": "Train The Trainers Speaker Lessons",
+		"slug": "train-the-trainers-speaker-lessons",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/train-the-trainers-speaker-lessons/README.md",
+		"parent": null
+	},
+	{
+		"title": "Introduction To The Theme Review Process",
+		"slug": "introduction-to-the-theme-review-process",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/introduction-to-the-theme-review-process/README.md",
+		"parent": null
+	},
+	{
+		"title": "Introduction To Gutenberg",
+		"slug": "introduction-to-gutenberg",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/introduction-to-gutenberg/README.md",
+		"parent": null
+	},
+	{
+		"title": "How To Create A Blog Post In Wordpress 5",
+		"slug": "how-to-create-a-blog-post-in-wordpress-5",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/how-to-create-a-blog-post-in-wordpress-5/README.md",
+		"parent": null
+	},
+	{
+		"title": "Wp Cli",
+		"slug": "wp-cli",
+		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/wp-cli/README.md",
+		"parent": null
+	}
+]
