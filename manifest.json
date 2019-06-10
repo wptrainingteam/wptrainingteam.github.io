@@ -1,4 +1,4 @@
-[
+{
 	{
 		"title": "Anatomy Of A Theme",
 		"slug": "anatomy-of-a-theme",
@@ -503,4 +503,4 @@
 		"markdown_source": "https://wptrainingteam.github.io/lesson-plan/wp-cli/README.md",
 		"parent": null
 	}
-]
+}

@@ -5,7 +5,7 @@ LESSONLIST="lesson-plans.manifest"
 LESSONPLANROOT="https://wptrainingteam.github.io/lesson-plan/"
 MANIFEST="../manifest.json"
 
-printf "[\n" > $MANIFEST
+printf "{\n" > $MANIFEST
 
 while read in;
 do
@@ -25,4 +25,4 @@ do
   printf "\t},\n" >> $MANIFEST;
 done < $LESSONLIST
 sed -i '$ d' $MANIFEST;
-printf "\t}\n]" >> $MANIFEST;
+printf "\t}\n}" >> $MANIFEST;
