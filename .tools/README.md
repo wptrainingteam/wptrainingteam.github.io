@@ -50,3 +50,9 @@ When updates have been made to lesson plans, or a new lesson plan repository has
   $ git push
   ```
 10. Submit a pull request back to the wptrainingteam organization.
+
+## The WordPress.org Lesson Plan Manifest
+When new lesson plans are added, the manifest.json file that drives the imports to WordPress.org needs to be updated. The script in `.tools` will parse the **lesson-plans.manifest** file and create the manifest.json file. Execute it by running it as a script:
+```
+~/wptrainingteam.github.io/.tools/ $ ./update-manifest.sh
+```
