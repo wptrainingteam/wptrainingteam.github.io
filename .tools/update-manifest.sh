@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 
 LESSONLIST="lesson-plans.manifest"
-LESSONPLANROOT="https://wptrainingteam.github.io/lesson-plan/"
+LESSONPLANROOT="https:\/\/github.com\/wptrainingteam\/"
 MANIFEST="../manifest.json"
 
 printf "{\n" > $MANIFEST
@@ -15,7 +15,7 @@ do
   friendly_title=$(echo $rawtitle | sed 's/-/ /g');
   friendly_title=$(echo $friendly_title | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1');
   #echo $friendly_title;
-  markdown_source="$LESSONPLANROOT$rawtitle/README.md";
+  markdown_source="$LESSONPLANROOT$rawtitle\/blob\/master\/README.md";
   #echo $markdown_source;
   printf "\t\"$rawtitle\": {\n" >> $MANIFEST;
   printf "\t\t\"title\": \"$friendly_title\",\n" >> $MANIFEST;
