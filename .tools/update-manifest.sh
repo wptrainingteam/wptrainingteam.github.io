@@ -17,7 +17,7 @@ do
   #echo $friendly_title;
   markdown_source="$LESSONPLANROOT$rawtitle/README.md";
   #echo $markdown_source;
-  printf "\t{\n" >> $MANIFEST;
+  printf "\t\"$rawtitle\": {\n" >> $MANIFEST;
   printf "\t\t\"title\": \"$friendly_title\",\n" >> $MANIFEST;
   printf "\t\t\"slug\": \"$rawtitle\",\n" >> $MANIFEST;
   printf "\t\t\"markdown_source\": \"$markdown_source\",\n" >> $MANIFEST;
