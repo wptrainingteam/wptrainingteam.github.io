@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 
 LESSONLIST="lesson-plans.manifest"
-LESSONPLANROOT="https:\/\/wptrainingteam.github.io\/"
+LESSONPLANROOT="https:\/\/wptrainingteam.github.io\/lesson-plan\/"
 MANIFEST="../manifest.json"
 
 printf "{\n" > $MANIFEST
