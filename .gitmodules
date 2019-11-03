@@ -670,3 +670,11 @@
 	path = dev/lesson-plan/wp-cli
 	url = https://github.com/wptrainingteam/wp-cli.git
 	branch = dev
+[submodule "lesson-plan/what-is-css"]
+	path = lesson-plan/what-is-css
+	url = https://github.com/wptrainingteam/what-is-css.git
+	branch = master
+[submodule "dev/lesson-plan/what-is-css"]
+	path = dev/lesson-plan/what-is-css
+	url = https://github.com/wptrainingteam/what-is-css.git
+	branch = dev
