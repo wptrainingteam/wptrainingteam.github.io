@@ -632,11 +632,12 @@ form {
 
 #header_wrap {
     background: #21759b;
-/*    background: -moz-linear-gradient(top, #d3e7f8, #21759b);
+    /* background: -moz-linear-gradient(top, #d3e7f8, #21759b);
     background: -webkit-linear-gradient(top, #d3e7f8, #21759b);
     background: -ms-linear-gradient(top, #d3e7f8, #21759b);
     background: -o-linear-gradient(top, #d3e7f8, #21759b);
-    background: linear-gradient(top, #d3e7f8, #21759b)*/
+    background: linear-gradient(top, #d3e7f8, #21759b)
+    */
 }
 
 #header_wrap .inner {
