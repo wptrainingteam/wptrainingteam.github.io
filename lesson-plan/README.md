@@ -147,6 +147,8 @@
   * [Slides](https://wptrainingteam.github.io/lesson-plan/what-is-akismet/slides)
 * [lesson-plan/what-is-contact-form-7](https://wptrainingteam.github.io/lesson-plan/what-is-contact-form-7) 
   * [Slides](https://wptrainingteam.github.io/lesson-plan/what-is-contact-form-7/slides)
+* [lesson-plan/what-is-css](https://wptrainingteam.github.io/lesson-plan/what-is-css) 
+  * [Slides](https://wptrainingteam.github.io/lesson-plan/what-is-css/slides)
 * [lesson-plan/what-is-open-source](https://wptrainingteam.github.io/lesson-plan/what-is-open-source) 
   * [Slides](https://wptrainingteam.github.io/lesson-plan/what-is-open-source/slides)
 * [lesson-plan/what-is-w3-total-cache](https://wptrainingteam.github.io/lesson-plan/what-is-w3-total-cache) 

@@ -502,5 +502,11 @@
 		"slug": "wp-cli",
 		"markdown_source": "https:\/\/wptrainingteam.github.io\/lesson-plan\/wp-cli\/README.md",
 		"parent": null
+	},
+	"what-is-css": {
+		"title": "What Is Css",
+		"slug": "what-is-css",
+		"markdown_source": "https:\/\/wptrainingteam.github.io\/lesson-plan\/what-is-css\/README.md",
+		"parent": null
 	}
 }
