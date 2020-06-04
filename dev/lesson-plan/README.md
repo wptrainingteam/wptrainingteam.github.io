@@ -1506,6 +1506,7 @@
   * [Slides](https://wptrainingteam.github.io/dev/lesson-plan/wp-cli/slides)
 * [dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk](https://wptrainingteam.github.io/dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk) 
   * [Slides](https://wptrainingteam.github.io/dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk/slides)
+<<<<<<< HEAD
 * [dev/lesson-plan/anatomy-of-a-theme](https://wptrainingteam.github.io/dev/lesson-plan/anatomy-of-a-theme) 
   * [Slides](https://wptrainingteam.github.io/dev/lesson-plan/anatomy-of-a-theme/slides)
 * [dev/lesson-plan/backing-up-your-wordpress-site](https://wptrainingteam.github.io/dev/lesson-plan/backing-up-your-wordpress-site) 
@@ -1676,3 +1677,5 @@
   * [Slides](https://wptrainingteam.github.io/dev/lesson-plan/wp-cli/slides)
 * [dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk](https://wptrainingteam.github.io/dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk) 
   * [Slides](https://wptrainingteam.github.io/dev/lesson-plan/writing-the-pitch-for-your-wordpress-talk/slides)
+=======
+>>>>>>> 97a4c628a6d728c70766b0da39f6ed576011c9b0
