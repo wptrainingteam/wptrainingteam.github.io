@@ -678,3 +678,43 @@
 	path = dev/lesson-plan/what-is-css
 	url = https://github.com/wptrainingteam/what-is-css.git
 	branch = dev
+[submodule "lesson-plan/child-themes-twentytwenty"]
+	path = lesson-plan/child-themes-twentytwenty
+	url = https://github.com/wptrainingteam/child-themes-twentytwenty.git
+	branch = master
+[submodule "lesson-plan/child-themes-twentynineteen"]
+	path = lesson-plan/child-themes-twentynineteen
+	url = https://github.com/wptrainingteam/child-themes-twentynineteen.git
+	branch = master
+[submodule "lesson-plan/block-patterns"]
+	path = lesson-plan/block-patterns
+	url = https://github.com/wptrainingteam/block-patterns.git
+	branch = master
+[submodule "lesson-plan/core-sitemaps"]
+	path = lesson-plan/core-sitemaps
+	url = https://github.com/wptrainingteam/core-sitemaps.git
+	branch = master
+[submodule "lesson-plan/core-auto-updates"]
+	path = lesson-plan/core-auto-updates
+	url = https://github.com/wptrainingteam/core-auto-updates.git
+	branch = master
+[submodule "dev/lesson-plan/child-themes-twentytwenty"]
+	path = dev/lesson-plan/child-themes-twentytwenty
+	url = https://github.com/wptrainingteam/child-themes-twentytwenty.git
+	branch = dev
+[submodule "dev/lesson-plan/child-themes-twentynineteen"]
+	path = dev/lesson-plan/child-themes-twentynineteen
+	url = https://github.com/wptrainingteam/child-themes-twentynineteen.git
+	branch = dev
+[submodule "dev/lesson-plan/block-patterns"]
+	path = dev/lesson-plan/block-patterns
+	url = https://github.com/wptrainingteam/block-patterns.git
+	branch = dev
+[submodule "dev/lesson-plan/core-sitemaps"]
+	path = dev/lesson-plan/core-sitemaps
+	url = https://github.com/wptrainingteam/core-sitemaps.git
+	branch = dev
+[submodule "dev/lesson-plan/core-auto-updates"]
+	path = dev/lesson-plan/core-auto-updates
+	url = https://github.com/wptrainingteam/core-auto-updates.git
+	branch = dev
