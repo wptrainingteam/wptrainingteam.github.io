@@ -246,10 +246,6 @@
 	path = lesson-plan/becoming-a-better-speaker
 	url = https://github.com/wptrainingteam/becoming-a-better-speaker.git
 	branch = master
-[submodule "lesson-plan/what-is-yoast-seo"]
-	path = lesson-plan/what-is-yoast-seo
-	url = https://github.com/wptrainingteam/what-is-yoast-seo.git
-	branch = master
 [submodule "lesson-plan/keeping-wordpress-sites-secure"]
 	path = lesson-plan/keeping-wordpress-sites-secure
 	url = https://github.com/wptrainingteam/keeping-wordpress-sites-secure.git
@@ -581,10 +577,6 @@
 [submodule "dev/lesson-plan/becoming-a-better-speaker"]
 	path = dev/lesson-plan/becoming-a-better-speaker
 	url = https://github.com/wptrainingteam/becoming-a-better-speaker.git
-	branch = dev
-[submodule "dev/lesson-plan/what-is-yoast-seo"]
-	path = dev/lesson-plan/what-is-yoast-seo
-	url = https://github.com/wptrainingteam/what-is-yoast-seo.git
 	branch = dev
 [submodule "dev/lesson-plan/keeping-wordpress-sites-secure"]
 	path = dev/lesson-plan/keeping-wordpress-sites-secure
