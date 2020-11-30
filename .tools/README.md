@@ -1,6 +1,14 @@
 # Tools
 To update the lessons available on the public-facing wptrainingteam.github.io, follow these steps.
 
+## Update existing lesson plans to latest master branch
+To manually update the lessons to the current HEAD of their submodule repos, run the following commands once you have cloned the repository:
+```
+git submodule init
+git submodule sync
+git submodule update --remote
+```
+
 ## Omit Non-Lesson Repositories
 Several repositories within the organization are not lesson plans. These should not be included on this site. To omit a repo from this site, add its clone URL to a new line in **omitted-repos.manifest.**
 
